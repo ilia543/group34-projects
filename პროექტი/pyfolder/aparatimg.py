@@ -498,7 +498,7 @@ left(120)
 for i in range(20):
     right(2)
     forward(3)
-color("#ff4800")
+color("orangered")
 end_fill()
 color("black")
 left(110)
@@ -539,7 +539,7 @@ forward(20)
 for i in range(10):
     left(9)
     forward(1)
-forward(40)
+forward(50)
 for i in range(10):
     left(9)
     forward(1)
@@ -547,7 +547,7 @@ forward(20)
 for i in range(10):
     left(9)
     forward(1)
-forward(40)
+forward(50)
 color("brown")
 end_fill()
 penup()
@@ -573,7 +573,258 @@ for i in range(10):
     forward(1)
 color("#f6c338")
 end_fill()
+penup()
+goto(-463, 235)
+pendown()
+color("white")
+width(2)
+write("co", font=("Arial", 18, "bold"))
+penup()
+goto(-463, 218)
+pendown()
+write("ca", font=("Arial", 18, "bold"))
+penup()
+goto(-463, 201)
+pendown()
+write("co", font=("Arial", 18, "bold"))
+penup()
+goto(-463, 184)
+pendown()
+write("la", font=("Arial", 18, "bold"))
+penup()
+goto(-356, 220)
+pendown()
+write("sn", font=("Arial", 10, "bold"))
+penup()
+goto(-356, 210)
+pendown()
+write("ic", font=("Arial", 10, "bold"))
+penup()
+goto(-356, 200)
+pendown()
+write("ke", font=("Arial", 10, "bold"))
+penup()
+goto(-356, 190)
+pendown()
+write("rs", font=("Arial", 10, "bold"))
+penup()
+goto(-276, 224)
+pendown()
+right(195)
+color("red")
+begin_fill()
+right(70)
+forward(30)
+right(90)
+forward(50)
+right(90)
+forward(30)
+right(90)
+forward(50)
+end_fill()
+penup()
+goto(-273, 225)
+pendown()
+color("white")
+write("lays", font=("Arial", 18, "bold"),)
+penup()
+goto(-466 , 120)
+pendown()
+color("white")
+write("water", font=("Arial", 10, "bold"),)
+penup()
+goto(-365, 115)
+pendown()
 color("black")
+write("en", font=("Arial", 18, "bold"),)
+penup()
+goto(-365, 100)
+pendown()
+write("er", font=("Arial", 18, "bold"),)
+penup()
+goto(-365, 85)
+pendown()
+write("gy", font=("Arial", 18, "bold"),)
+penup()
+goto(-368, 70)
+pendown()
+write("drink", font=("Arial", 10, "bold"),)
+penup()
+goto(-265, 140)
+pendown()
+color("white")
+write("nabeg", font=("Arial", 8, "bold"),)
+penup()
+goto(-257, 130)
+pendown()
+write("lavi", font=("Arial", 8, "bold"),)
+penup()
+goto(-440, 5)
+pendown()
+left(180)
+color("black")
+begin_fill()
+left(150)
+forward(30)
+left(150)
+forward(30)
+left(105)
+forward(16)
+color("red")
+end_fill()
+penup()
+goto(-472, -5)
+pendown()
+color("white")
+write("doritos", font=("Arial", 11, "bold"),)
+penup()
+goto(-362, 25)
+pendown()
+left(35)
+color("white")
+begin_fill()
+for i in range(9):
+    right(10)
+    forward(2)
+forward(3)
+for i in range(18):
+    right(10)
+    forward(2)
+forward(3)
+for i in range(9):
+    right(10)
+    forward(2)
+end_fill()
+penup()
+goto(-353, 25)
+pendown()
+color("black")
+begin_fill()
+circle(2)
+end_fill()
+penup()
+goto(-343, 25)
+pendown()
+begin_fill()
+circle(2)
+end_fill()
+penup()
+goto(-349, 18)
+pendown()
+width(4)
+left(90)
+for i in range(5):
+    left(18)
+    forward(2)
+right(90)
+forward(5)
+penup()
+goto(-349, 18)
+pendown()
+right(180)
+left(20)
+for i in range(5):
+    right(18)
+    forward(2)
+left(90)
+forward(5)
+penup()
+goto(-364, -15)
+pendown()
+color("white")
+write("prin", font=("Arial", 11, "bold"),)
+penup()
+goto(-364, -28)
+pendown()
+write("gles", font=("Arial", 11, "bold"),)
+penup()
+goto(-272 , 5)
+pendown()
+color("orange")
+write("cheetos", font=("Arial", 10, "bold"),)
+penup()
+goto(-475 , -140)
+pendown()
+color("black")
+write("HARIBO", font=("Arial", 10, "bold"),)
+penup()
+goto(-358, -140)
+pendown()
+color("white")
+write("M", font=("Arial", 15, "bold"),)
+penup()
+goto(-355, -152)
+pendown()
+write("&", font=("Arial", 12, "bold"),)
+penup()
+goto(-358, -168)
+pendown()
+write("M", font=("Arial", 15, "bold"),)
+penup()
+goto(-343, -155)
+pendown()
+write("'", font=("Arial", 8, "bold"),)
+penup()
+goto(-340, -160)
+pendown()
+write("S", font=("Arial", 10, "bold"),)
+penup()
+goto(-269 , -135)
+pendown()
+color("black")
+write("krec", font=("Arial", 14, "bold"),)
+penup()
+goto(-269 , -150)
+pendown()
+write("kers", font=("Arial", 14, "bold"),)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

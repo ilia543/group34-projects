@@ -1,0 +1,80 @@
+.img_deg
+{
+ float:right;
+ width: 50%;
+}
+
+.pos_cen
+{
+ position: absolute;
+ width: 70%;
+}
+
+p{
+    color:black
+}
+
+.img_deg{
+    float:right;
+    width: 50%;
+}
+            
+.pos_cen{
+    position: absolute;
+    width: 70%;
+}
+
+.img_deg
+{
+ float:right;
+ width: 50%;
+}
+
+.pos_cen
+{
+ position: absolute;
+ width: 70%;
+ left: 15%;
+ 
+}
+
+ .img_deg{
+    float:right;
+    width: 50%;
+}
+            
+.pos_cen{
+    position: absolute;
+    width: 70%;
+    left: 15%;
+}
+
+.img_deg
+{
+ float:right;
+ width: 60%;
+}
+
+.pos_cen
+{
+ position: absolute;
+ width:60%;
+ left: 15%;
+ 
+}
+.img_size
+{
+ size:1000px;
+}
+
+.img_deg{
+    float:right;
+    width: 50%;
+}
+            
+.pos_cen{
+    position: absolute;
+    width: 40;
+    left: 15%;
+}
+
