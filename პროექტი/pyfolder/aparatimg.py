@@ -731,7 +731,7 @@ forward(5)
 penup()
 goto(-364, -15)
 pendown()
-color("white")
+color("red")
 write("prin", font=("Arial", 11, "bold"),)
 penup()
 goto(-364, -28)
@@ -779,61 +779,4 @@ pendown()
 write("kers", font=("Arial", 14, "bold"),)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#მჯერა შენი
 exitonclick()
