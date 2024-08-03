@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank you</title>
+    <link rel="stylesheet" href="button GEo.css">
+</head>
+<body>
+    <div class="container">
+        <button type="submit" class="btn" onclick="openPopup()">გაგზავნა</button>
+        <div class="popup" id="popup">
+            <img src="sumbit.jpg">
+            <h2>Გმადლობთ</h2>
+            <p>თქვენი დეტალები წარმატებით იქნა დატანილი. მადლობა!</p>
+            <button type="button" onclick="closePopup()"><a href="http://127.0.0.1:5500/htmlfolder/navigationqforqinpormationq/123.html">კარგი</a></button>
+        </div>
+    </div>\
+<script>
+let popup = document.getElementById("popup")
+
+function openPopup(){
+    popup.classList.add("open-popup");
+}
+function closePopup(){
+    popup.classList.remove("open-popup");
+}
+</script>
+</body>
+</html>
