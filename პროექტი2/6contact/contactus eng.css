@@ -1,0 +1,39 @@
+h2 {
+    color: #38854f;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: rgb(255, 240, 196);
+}
+
+a:hover {
+    color: #ad101a;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h4 {
+    margin-left: 25px;
+}
+
+#first {
+    margin-left: 60px;
+}
+
+#second {
+    margin-left: -5px;
+}
+
+p:hover {
+    color: #3d7361;
+}

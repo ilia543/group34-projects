@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(255, 240, 196);
+}
+h1{
+    text-align: center;
+    color: #254336;
+}
+.divs{
+    background-color: rgb(237, 222, 178);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 20px;
+    color: #254336;
+    font-size: 20px;
+}
+#main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
