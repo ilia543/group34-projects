@@ -23,12 +23,12 @@ body {
     color: black;
     text-decoration: none;
     margin-top: 10px;
-    font-size: 30px;
-    margin-left: 30px;
+    font-size: 20px;
+    margin-left: 20px;
     transition: 0.3s;
 }
 #p1:hover {
-    font-size: 35px;
+    font-size: 25px;
     text-decoration: underline;
 }
 #p2 {
@@ -37,12 +37,12 @@ body {
     color: black;
     text-decoration: none;
     margin-top: 10px;
-    font-size: 30px;
-    margin-left: 140px;
+    font-size: 20px;
+    margin-left: 110px;
     transition: 0.3s;
 }
 #p2:hover {
-    font-size: 35px;
+    font-size: 25px;
     text-decoration: underline;
 }
 #p3 {
@@ -51,12 +51,12 @@ body {
     color: black;
     text-decoration: none;
     margin-top: 10px;
-    font-size: 30px;
-    margin-left: 270px;
+    font-size: 20px;
+    margin-left: 250px;
     transition: 0.3s;
 }
 #p3:hover {
-    font-size: 35px;
+    font-size: 25px;
     text-decoration: underline;
 }
 #p5 {
@@ -66,12 +66,12 @@ body {
     color: black;
     text-decoration: none;
     margin-top: 10px;
-    font-size: 30px;
-    margin-left: 410px;
+    font-size: 20px;
+    margin-left: 400px;
     transition: 0.3s;
 }
 #p5:hover {
-    font-size: 35px;
+    font-size: 25px;
     text-decoration: underline;
 }
 #p4 {
@@ -102,12 +102,12 @@ body {
     color: black;
     text-decoration: none;
     margin-top: 10px;
-    font-size: 30px;
-    margin-left: 1080px;    
+    font-size: 20px;
+    margin-left: 1000px;    
     transition: 0.3s;    
 }
 #p6:hover {
-    font-size: 35px;
+    font-size: 25px;
     text-decoration: underline;
 }
 #p7 {
@@ -116,12 +116,12 @@ body {
     color: black;
     text-decoration: none;
     margin-top: 10px;
-    font-size: 30px;
-    margin-left: 1160px;    
+    font-size: 20px;
+    margin-left: 1080px;    
     transition: 0.3s;    
 }
 #p7:hover {
-    font-size: 35px;
+    font-size: 25px;
     text-decoration: underline;
 }
 #p8 {
@@ -130,46 +130,97 @@ body {
     color: black;
     text-decoration: none;
     margin-top: 10px;
-    font-size: 30px;
-    margin-left: 1280px;    
+    font-size: 20px;
+    margin-left: 1160px;    
     transition: 0.3s;  
 }
 #p8:hover {
-    font-size: 35px;
+    font-size: 25px;
     text-decoration: underline;
 }
-h1{
-    text-align: center;
-    color: #254336;
+#regdiv {
+    width: 500px;
+    height: 600px;
+    margin-left: 500px;
+    margin-top: 80px;
 }
-.divs{
-    background-color: rgb(237, 222, 178);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-    height: 200px;
-    padding: 20px;
-    border-radius: 20px;
-    color: #254336;
+#form {
+    position: absolute;
+    color: black;
     font-size: 20px;
-    box-shadow: 3px 3px 0px black;
-    transition: 0.6s;
+    border: 2px solid black;
+    width: 400px;
+    height: 300px;
+    padding: 40px;
+    border-radius: 50px;
+    box-shadow: 4px 4px 0px black;
+    margin-top: 100px;
+    transition: 1s;
 }
-.divs:hover {
+#form:hover {
     box-shadow: none;
 }
-#main{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 200px;
-}
-#h1ab {
+.regs {
+    position: absolute;
     position: relative;
-    top: 90px;
+    margin-left: 110px;
+}
+#sumbit {
+    position: absolute;
+    position: relative;
+    margin-left: 160px;
+    margin-top: 20px;
+    border-radius: 40px;
+    border: 1px solid white;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(226, 43, 214);
+    box-shadow: 3px 3px 0px black;
+    transition: 0.5s;
+}
+#sumbit:hover {
+    box-shadow: none;
+    border-color: black;
+}
+#name {
+    width: 200px;
+    height: 20px;
+    background-color: rgb(241, 183, 241);
+    color: black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 0px black;
+    border: 2px solid white;
+    transition: 0.5s;
+}
+#name:hover {
+    border: 2px solid black;
+    box-shadow: none;
+}
+#email {
+    width: 200px;
+    height: 20px;
+    background-color: rgb(241, 183, 241);
+    color: black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 0px black;
+    border: 2px solid white;
+    transition: 0.5s;
+}
+#email:hover {
+    border: 2px solid black;
+    box-shadow: none;
+}
+#password {
+    width: 200px;
+    height: 20px;
+    background-color: rgb(241, 183, 241);
+    color: black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 0px black;
+    border: 2px solid white;
+    transition: 0.5s;
+}
+#password:hover {
+    border: 2px solid black;
+    box-shadow: none;
 }
