@@ -2,7 +2,7 @@ body {
     background-color: rgb(255, 240, 196);
     height: 2000px;
 }
-#bar {
+/* #bar {
     position: fixed;
     width: 99%;
     height: 60px;
@@ -137,7 +137,7 @@ body {
 #p8:hover {
     font-size: 35px;
     text-decoration: underline;
-}
+} */
 #regdiv {
     width: 500px;
     height: 600px;
@@ -150,7 +150,7 @@ body {
     font-size: 20px;
     border: 2px solid black;
     width: 400px;
-    height: 500px;
+    height: 550px;
     padding: 40px;
     border-radius: 50px;
     box-shadow: 4px 4px 0px black;
@@ -182,7 +182,7 @@ body {
     box-shadow: none;
     border-color: black;
 }
-#name {
+#name_input {
     width: 200px;
     height: 20px;
     background-color: rgb(241, 183, 241);
@@ -192,11 +192,11 @@ body {
     border: 2px solid white;
     transition: 0.5s;
 }
-#name:hover {
+#name_input:hover {
     border: 2px solid black;
     box-shadow: none;
 }
-#surname {
+#surname_input {
     width: 200px;
     height: 20px;
     background-color: rgb(241, 183, 241);
@@ -206,11 +206,11 @@ body {
     border: 2px solid white;
     transition: 0.5s;
 }
-#surname:hover {
+#surname_input:hover {
     border: 2px solid black;
     box-shadow: none;
 }
-#email {
+#email_input {
     width: 200px;
     height: 20px;
     background-color: rgb(241, 183, 241);
@@ -220,11 +220,11 @@ body {
     border: 2px solid white;
     transition: 0.5s;
 }
-#email:hover {
+#email_input:hover {
     border: 2px solid black;
     box-shadow: none;
 }
-#phone {
+#phone_input {
     width: 200px;
     height: 20px;
     background-color: rgb(241, 183, 241);
@@ -234,11 +234,11 @@ body {
     border: 2px solid white;
     transition: 0.5s;
 }
-#phone:hover {
+#phone_input:hover {
     border: 2px solid black;
     box-shadow: none;
 }
-#date {
+#date_input {
     width: 200px;
     height: 20px;
     background-color: rgb(241, 183, 241);
@@ -248,11 +248,11 @@ body {
     border: 2px solid white;
     transition: 0.5s;
 }
-#date:hover {
+#date_input:hover {
     border: 2px solid black;
     box-shadow: none;
 }
-#password {
+#password_input {
     width: 200px;
     height: 20px;
     background-color: rgb(241, 183, 241);
@@ -262,7 +262,21 @@ body {
     border: 2px solid white;
     transition: 0.5s;
 }
-#password:hover {
+#password_input:hover {
+    border: 2px solid black;
+    box-shadow: none;
+}
+#repeat_password_input {
+    width: 200px;
+    height: 20px;
+    background-color: rgb(241, 183, 241);
+    color: black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 0px black;
+    border: 2px solid white;
+    transition: 0.5s;
+}
+#repeat_password_input:hover {
     border: 2px solid black;
     box-shadow: none;
 }

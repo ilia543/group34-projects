@@ -182,7 +182,7 @@ body {
     box-shadow: none;
     border-color: black;
 }
-#name {
+#name_input {
     width: 200px;
     height: 20px;
     background-color: rgb(241, 183, 241);
@@ -192,11 +192,11 @@ body {
     border: 2px solid white;
     transition: 0.5s;
 }
-#name:hover {
+#name_input:hover {
     border: 2px solid black;
     box-shadow: none;
 }
-#email {
+#email_input {
     width: 200px;
     height: 20px;
     background-color: rgb(241, 183, 241);
@@ -206,11 +206,11 @@ body {
     border: 2px solid white;
     transition: 0.5s;
 }
-#email:hover {
+#email_input:hover {
     border: 2px solid black;
     box-shadow: none;
 }
-#password {
+#password_input {
     width: 200px;
     height: 20px;
     background-color: rgb(241, 183, 241);
@@ -220,7 +220,7 @@ body {
     border: 2px solid white;
     transition: 0.5s;
 }
-#password:hover {
+#password_input:hover {
     border: 2px solid black;
     box-shadow: none;
 }
