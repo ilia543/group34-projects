@@ -6,7 +6,7 @@ body {
     position: fixed;
     width: 99%;
     height: 60px;
-    background-color: white;
+    background-color: rgb(255, 249, 229);
     box-shadow: 4px 4px 1px black;
     color: black;
     border-radius: 40px;
@@ -20,7 +20,7 @@ body {
 #p1 {
     position: relative;
     position: absolute;
-    color: black;
+    color: #254336;
     text-decoration: none;
     margin-top: 10px;
     font-size: 20px;
@@ -34,7 +34,7 @@ body {
 #p2 {
     position: relative;
     position: absolute;
-    color: black;
+    color: #254336;
     text-decoration: none;
     margin-top: 10px;
     font-size: 20px;
@@ -48,7 +48,7 @@ body {
 #p3 {
     position: relative;
     position: absolute;
-    color: black;
+    color: #254336;
     text-decoration: none;
     margin-top: 10px;
     font-size: 20px;
@@ -63,7 +63,7 @@ body {
     border: none;
     position: relative;
     position: absolute;
-    color: black;
+    color: #254336;
     text-decoration: none;
     margin-top: 10px;
     font-size: 20px;
@@ -77,7 +77,7 @@ body {
 #p4 {
     position: relative;
     position: absolute;
-    color: black;
+    color: #254336;
     margin-top: 1px;
     margin-left: 560px;
     font-size: 40px;
@@ -99,7 +99,7 @@ body {
 #p6 {
     position: relative;
     position: absolute;
-    color: black;
+    color: #254336;
     text-decoration: none;
     margin-top: 10px;
     font-size: 20px;
@@ -113,7 +113,7 @@ body {
 #p7 {
     position: relative;
     position: absolute;
-    color: black;
+    color: #254336;
     text-decoration: none;
     margin-top: 10px;
     font-size: 20px;
@@ -127,7 +127,7 @@ body {
 #p8 {
     position: relative;
     position: absolute;
-    color: black;
+    color: #254336;
     text-decoration: none;
     margin-top: 10px;
     font-size: 20px;
