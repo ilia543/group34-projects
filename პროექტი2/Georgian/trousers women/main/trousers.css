@@ -6,7 +6,7 @@ body{
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin-top: 80px; /* დაშორება!!! */
+    margin-top: 80px;
 }
 .divs{
     background-color: rgb(241, 209, 115);
