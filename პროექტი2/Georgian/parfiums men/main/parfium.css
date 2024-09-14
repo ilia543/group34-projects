@@ -129,12 +129,11 @@ button:hover{
     margin-left: 560px;
     font-size: 40px;
     font-weight: 900;
-    text-shadow: 3px 3px 0px red;
+    text-decoration: none;
     transition: 0.5s;
 }
 #p4:hover {
-    text-shadow: none;
-    color: red;
+    color: green;
 }
 #sectbarimg {
     position: relative;

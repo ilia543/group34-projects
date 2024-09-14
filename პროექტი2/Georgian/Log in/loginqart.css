@@ -82,12 +82,11 @@ body {
     margin-left: 560px;
     font-size: 40px;
     font-weight: 900;
-    text-shadow: 3px 3px 0px red;
+    text-decoration: none;
     transition: 0.5s;
 }
 #p4:hover {
-    text-shadow: none;
-    color: red;
+    color: green;
 }
 #sectbarimg {
     position: relative;
@@ -174,53 +173,58 @@ body {
     border: 1px solid white;
     width: 100px;
     height: 30px;
-    background-color: rgb(226, 43, 214);
+    background-color: #254336;
     box-shadow: 3px 3px 0px black;
     transition: 0.5s;
+    color: white;
 }
 #sumbit:hover {
     box-shadow: none;
     border-color: black;
+    background-color: #254336;
 }
-#name {
+#name_input {
     width: 200px;
     height: 20px;
-    background-color: rgb(241, 183, 241);
-    color: black;
+    background-color: #254336;
+    color: white;
     border-radius: 10px;
     box-shadow: 3px 3px 0px black;
     border: 2px solid white;
     transition: 0.5s;
 }
-#name:hover {
+#name_input:hover {
     border: 2px solid black;
     box-shadow: none;
 }
-#email {
+#email_input {
     width: 200px;
     height: 20px;
-    background-color: rgb(241, 183, 241);
-    color: black;
+    background-color: #254336;
+    color: white;
     border-radius: 10px;
     box-shadow: 3px 3px 0px black;
     border: 2px solid white;
     transition: 0.5s;
 }
-#email:hover {
+#email_input:hover {
     border: 2px solid black;
     box-shadow: none;
 }
-#password {
+#password_input {
     width: 200px;
     height: 20px;
-    background-color: rgb(241, 183, 241);
-    color: black;
+    background-color: #254336;
+    color: white;
     border-radius: 10px;
     box-shadow: 3px 3px 0px black;
     border: 2px solid white;
     transition: 0.5s;
 }
-#password:hover {
+#password_input:hover {
     border: 2px solid black;
     box-shadow: none;
+}
+input::placeholder {
+    color: white;
 }
